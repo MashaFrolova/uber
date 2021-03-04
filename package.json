@@ -1,0 +1,24 @@
+{
+  "name": "mashafrolova.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/SASS/style.sass src/css/style.min.css --style compressed",
+    "sass:watch": "sass src/SASS/style.sass --watch src/css/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashaFrolova/MashaFrolova.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MashaFrolova/MashaFrolova.github.io/issues"
+  },
+  "homepage": "https://github.com/MashaFrolova/MashaFrolova.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
