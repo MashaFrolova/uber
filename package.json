@@ -1,12 +1,13 @@
 {
   "name": "mashafrolova.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. project setup: npm install\r 2. run build: npm run build:dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass src/SASS/style.sass src/css/style.min.css --style compressed",
-    "sass:watch": "sass src/SASS/style.sass --watch src/css/style.min.css"
+    "sass:watch": "sass src/SASS/style.sass --watch src/css/style.min.css",
+    "gulp":"gulp"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,12 @@
   },
   "homepage": "https://github.com/MashaFrolova/MashaFrolova.github.io#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
     "sass": "^1.32.8"
-  }
+  },
+  "dependencies": {}
 }
